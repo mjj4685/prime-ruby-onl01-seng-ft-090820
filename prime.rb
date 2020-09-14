@@ -6,4 +6,3 @@ def prime(num)
 puts
 else
 end
-
