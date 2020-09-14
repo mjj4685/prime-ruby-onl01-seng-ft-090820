@@ -1,5 +1,5 @@
 # Add  code here!
-def is_prime?(number)
+def prime?(number)
   if number < 2
     return false
   end
@@ -13,4 +13,4 @@ def is_prime?(number)
   return true
 end
 
-puts is_prime?(31)
+puts prime?(31)
