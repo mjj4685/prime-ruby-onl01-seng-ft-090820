@@ -15,4 +15,4 @@ end
 
 puts prime?(31)
 
-end
+
