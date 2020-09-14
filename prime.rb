@@ -5,4 +5,5 @@ def prime(num)
  if num%2 !=0 && num!=2
 puts
 else
-  
+end
+
