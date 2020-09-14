@@ -5,3 +5,7 @@ def prime(num)
   if num%2 !=0 && num!=2
     puts "#{num} is prime!"
   else
+    puts "#{num} is not prime."
+  end
+end
+
