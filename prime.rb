@@ -1,11 +1,11 @@
 # Add  code here!
-def prime(num)
-  unless num.is_a? integer
-  puts "Numbers all day, errrr day."
-  if num%2 !=0 && num!=2
-    puts "#{num} is prime!"
+def prime(number)
+  unless number.is_a? Integer
+  puts "Be sure to account for negative numbers!"
+  if n%2 !=0 && n!=2
+    puts "#{n} is prime!"
   else
-    puts "#{num} is not prime."
+    puts "#{n} is not prime."
   end
 end
 
