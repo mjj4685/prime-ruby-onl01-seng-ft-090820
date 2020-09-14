@@ -8,4 +8,3 @@ def prime(num)
     puts "#{num} is not prime."
   end
 end
-
