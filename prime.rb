@@ -14,5 +14,3 @@ def prime?(number)
 end
 
 puts prime?(31)
-
-
