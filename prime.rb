@@ -2,10 +2,10 @@
 def prime(number)
   unless number.is_a? Integer
   puts "Be sure to account for negative numbers!"
-  if n%2 !=0 && n!=2
-    puts "#{n} is prime!"
+  if number%2 !=0 && number!=2
+    puts "#{number} is prime!"
   else
-    puts "#{n} is not prime."
+    puts "#{number} is not prime."
   end
 end
 
