@@ -1,12 +1,16 @@
 # Add  code here!
-def prime(number)
-  unless number.is_a? Integer
-  puts "Be sure to account for negative numbers!"
-  if number%2 !=0 && number!=2
-    puts "#{number} is prime!"
-  else
-    puts "#{number} is not prime."
+def is_prime?(number)
+  if number < 2
+    return false
   end
+  i = 2
+  while i <= number / 2
+    if number % i == 0
+      return false
+    end
+    i += 1
+  end
+  return true
 end
 
-prime(2)
+puts is_prime?(31)
